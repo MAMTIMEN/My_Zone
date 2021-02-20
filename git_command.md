@@ -15,9 +15,9 @@
 `git config --list`
 
 ## get help
-`git help <verb>`
-`git <verb> help`
+`git help <verb>`  
+`git <verb> help`  
 `man git-<verb>`
 etc: git help config
- 
+
 ## 
