@@ -20,4 +20,19 @@
 `man git-<verb>`  
 etc: git help config
 
+## initialize project
+`git init`
+
+## tracke changes
+`git add <[file name] | [* (to all)]>`
+
+## commit the change
+`git commit -m "<discribe this change>"`
+
+## clone project
+`git clone <url> [.]|[<new folder name>]`
+
+## corrent status
+`git status`
+
 ## 
