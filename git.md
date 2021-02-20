@@ -72,3 +72,38 @@ revoke last add
 
 ## discard
 `git checkout -- <file name>`
+
+## clone
+`git clone <url>`
+
+## pull
+`git pull`
+
+## push
+`git push <remote> <branch>`
+
+## show
+`git remote show <origin>`
+
+## remote remove
+`git remote [remove|rm] <branch>`
+
+## tag
+`git tag -l`  
+`git tag -a <version> -m "discribetion"`
+
+## alias
+`git config --global alias.co checkout`
+
+## branch
+`git branch <new branch name>`  
+`git checkout [-b] <branch name>`  
+equal to:  
+`git branch <branch name>`  
+`git checkout <branch name>`   
+
+delet branch:  
+`git branch -d <branch name>`
+
+merge branchs:  
+`git merge <branch name>` 
