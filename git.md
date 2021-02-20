@@ -33,6 +33,42 @@ etc: git help config
 `git clone <url> [.]|[<new folder name>]`
 
 ## corrent status
-`git status`
+`git status [<-s> | <--short>]`
 
-## 
+## ignore
+`create .gitignore file`  
+[more git ignore tips](https://github.com/github/gitignore)
+
+## difference
+`git diff <--staged>`
+
+## commit
+`git commit -a -m "<discribe chnages>"`
+
+## delete
+remove file from dir:  
+`git rm -f <file name>`  
+remove file from cache:  
+`git rm --cached <file name>`
+
+## rename
+`git mv <old name> <new name>`  
+equal to  
+`mv <old name> <new name>`  
+`git rm <old name>`  
+`git add <new name>`
+
+## log
+`git log -p <last step>`  
+`git log --stat`  
+`git log --pretty=format:"<format>"`  
+[more git log](https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%9F%A5%E7%9C%8B%E6%8F%90%E4%BA%A4%E5%8E%86%E5%8F%B2)
+
+## revoke
+cover last commit   
+`git commit --amend`  
+revoke last add  
+`git reset HEAD <fime name>`
+
+## discard
+`git checkout -- <file name>`
