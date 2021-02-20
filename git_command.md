@@ -5,7 +5,7 @@
 `git config --list --show-origin`
 
 ## user info
-`git config --global user.name <user-name>`
+`git config --global user.name <user-name>`  
 `git config --global user.email <e-mail>`
 
 ## text editor
@@ -17,7 +17,7 @@
 ## get help
 `git help <verb>`  
 `git <verb> help`  
-`man git-<verb>`
+`man git-<verb>`  
 etc: git help config
 
 ## 
